@@ -75,14 +75,14 @@
                 data: data,
                 contentType: "text/plain",
                 dataType:'text' ,
-                success: function(result){
+                success: function(result) {
                     document.getElementById('result').value = result;
                     console.log(result);
                 },
-                error:function(){  
+                error: function() {
                     document.getElementById('result').value = "Error";
                 }
-            });        
+            });
         }
         function reset() {
             document.getElementById('display').value = "";
